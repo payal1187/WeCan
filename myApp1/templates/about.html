@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %} 
+<div class= "my-5" style="background-color:pink">
+  <div class="row col-sm">
+      <div class="col-lg card" style="width: 11rem; background-color:pink">
+            <img src="{% static 'images/ex-2.jpg' %}" class="card-img-top my-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+      </div>     
+        
+        <div class="col-lg ml-large-1 my-lg-7" style="word-spacing: 2pt;">       
+            <p class="ml-lg-1" style="padding: 15px; width: fit-content; font-size:medium; background-color:yellowgreen; font-weight: 200; font-family: Georgia, 'Times New Roman', Times, serif;"><span style="font-size: xx-large;">W</span>elcome to WeCan,
+
+              At WeCan, we believe that the right talent can transform organizations and change lives. Our mission is to connect exceptional individuals with remarkable opportunities and support businesses in finding the perfect fit for their teams. With years of experience and a passion for matching talent with the right employers, we have become a trusted partner for job seekers and companies alike.
+              
+              </p>
+        </div>
+      
+    </div>
+  </div>
+{% endblock content %}
+      
+
+     
+ 
